@@ -1,6 +1,7 @@
 <h2 align="center"><b>Easy Kitchen</b></h2>
 <h4 align="center">Food recipes mobile application.</h4>
-![easy kitchen](https://github.com/KvRae/Easy-Kitchen/assets/58667227/82d6a8f3-ab2a-4fa9-861b-442e52779f6d)
+
+![easy kitchen](https://github.com/KvRae/Easy-Kitchen/assets/58667227/2fccf9a8-ab3d-42b8-8862-8a2a3fff477f)
 
 
   ## Description
