@@ -1,5 +1,5 @@
 <h2 align="center"><b>Easy Kitchen</b></h2>
-<h4 align="center">Food recipes application.</h4>
+<h4 align="center">Food recipes mobile application.</h4>
 
 
   ## Description
