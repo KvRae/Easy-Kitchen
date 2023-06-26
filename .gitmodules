@@ -1,3 +1,6 @@
 [submodule "Easy-Kitchen-IOS"]
 	path = Easy-Kitchen-IOS
 	url = https://github.com/KvRae/Easy-Kitchen-IOS
+[submodule "Easy-Kitchen-Backend"]
+	path = Easy-Kitchen-Backend
+	url = https://github.com/KvRae/Easy-Kitchen-Backend
