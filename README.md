@@ -1,5 +1,5 @@
 <h2 align="center"><b>Easy Kitchen</b></h2>
-<h4 align="center">Food recipes mobile application.</h4>
+<h4 align="center">Mobile application for Food recipes .</h4>
 
 ![easy kitchen](https://github.com/KvRae/Easy-Kitchen/assets/58667227/2fccf9a8-ab3d-42b8-8862-8a2a3fff477f)
 
