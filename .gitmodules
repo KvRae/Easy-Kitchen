@@ -4,3 +4,6 @@
 [submodule "Easy-Kitchen-Backend"]
 	path = Easy-Kitchen-Backend
 	url = https://github.com/KvRae/Easy-Kitchen-Backend
+[submodule "Easy-Kitchen-Android"]
+	path = Easy-Kitchen-Android
+	url = https://github.com/KvRae/Easy-Kitchen-Android
