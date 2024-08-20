@@ -28,6 +28,27 @@ as its name implies, user-friendly and informative food mobile app that will pro
 
   NOTE: The links mentioned above refers to the latest release. Since this app is in BETA phase, therefore the REST API changes a lot.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/4b2d998c-c585-427b-a373-2e5356362aef" alt="Easy Kitchen 1" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d2ddf0da-61d8-4d6e-bcc5-57ed4e6b23dd" alt="Login Screen" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c4d8b256-e5e5-45c0-a114-a3ebc35cae47" alt="Home Screen – 2" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5ea6ec42-faf6-45f1-b21b-ef98e95be12b" alt="Home Screen – 3" width="200"/></td>
+    
+  </tr>
+  <tr>
+    <td>Splash Screen</td>
+    <td>Login Screen</td>
+    <td>Home Screen </td>
+    <td>Meals Screen</td>
+    
+  </tr>
+</table>
+
+
+
   ## Usage
   N/A
 
