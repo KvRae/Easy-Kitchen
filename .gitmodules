@@ -7,3 +7,9 @@
 [submodule "Easy-Kitchen-Android"]
 	path = Easy-Kitchen-Android
 	url = https://github.com/KvRae/Easy-Kitchen-Android
+[submodule "Easy-Kitchen-Compose"]
+	path = Easy-Kitchen-Compose
+	url = https://github.com/KvRae/Easy-Kitchen-Compose
+[submodule "Easy-Kitchen-Website"]
+	path = Easy-Kitchen-Website
+	url = https://github.com/KvRae/Easy-Kitchen-Website
