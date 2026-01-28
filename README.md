@@ -65,7 +65,7 @@ Easy-Kitchen/
 - **Easy-Kitchen-Android**: Native Android app built with modern Android development practices
 - **Easy-Kitchen-IOS**: Native iOS app with Swift and SwiftUI
 - **Easy-Kitchen-Backend**: Node.js/Express server handling all business logic and data management
-- **Easy-Kitchen-Compose**: Cross-platform desktop and web applications using Jetpack Compose
+- **Easy-Kitchen-Compose**: Native Android app built using Jetpack Compose
 - **Easy-Kitchen-Website**: Responsive web application for browser access
 
 ## 🛠️ Tech Stack
