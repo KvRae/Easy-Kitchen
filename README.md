@@ -1,32 +1,174 @@
 <h2 align="center"><b>Easy Kitchen</b></h2>
-<h4 align="center">Mobile application for Food recipes .</h4>
+<h4 align="center">A comprehensive food recipe platform - Mobile, Web & Desktop applications</h4>
 
 ![easy kitchen](https://github.com/KvRae/Easy-Kitchen/assets/58667227/2fccf9a8-ab3d-42b8-8862-8a2a3fff477f)
 
+## 🍽️ Description
 
-  ## Description
+"Roses are Red, Violets are Blue, so you're Hungry and you Don't Know What to Do!"
 
-"Roses are Red, Violets are Blue, so you're Hungry and you Don't Know What to Do!",
-as its name implies, user-friendly and informative food mobile app that will provide recipes and tips on healthy food. It adopts graphic elements and correspondent color solutions to showcase the listed healthy dishes or recipes in an intuitive and visual way.
+Easy Kitchen is a user-friendly and comprehensive food recipe platform designed to help users discover, share, and enjoy healthy recipes. The platform provides an intuitive interface with beautiful visual presentations of recipes, cooking tips, ingredient information, and nutrition guidance. It adopts thoughtful graphic elements and color solutions to make browsing and discovering new dishes an enjoyable experience.
 
-  ## Table of Contents
-  - [Description](#description)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Policy](#Policy)
-  - [Questions](#questions)
+### 🎯 Project Overview
+
+Easy Kitchen is a **full-stack, multi-platform application** consisting of:
+- **Mobile Applications**: Native iOS and Android apps built with modern frameworks
+- **Web Application**: React-based web interface using Jetpack Compose
+- **Backend API**: Node.js REST API server for data management
+- **Database**: MongoDB integration for storing recipes, users, and comments
+
+The project is currently in **BETA phase** and is actively being developed with regular updates to features and APIs.
+
+## 📋 Table of Contents
+- [Description](#description)
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Tech Stack](#tech-stack)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [License](#license)
+- [Privacy Policy](#policy)
+- [Questions](#questions)
+
+## ✨ Features
+
+- **Browse & Discover**: Explore thousands of recipes organized by categories and cuisines
+- **Search & Filter**: Advanced search with filters by ingredients, cooking time, and difficulty level
+- **User Accounts**: Create accounts, save favorite recipes, and track your cooking history
+- **Recipe Details**: Comprehensive recipe information including ingredients, instructions, nutrition facts, and cooking tips
+- **Comments & Ratings**: Share your feedback and read reviews from other users
+- **Image Upload**: Upload and share photos of your cooked dishes
+- **Multi-Platform**: Access your recipes across iOS, Android, Web, and Desktop applications
+- **Responsive Design**: Beautiful UI that works seamlessly on all devices
+
+## 📁 Project Structure
+
+This is a **monorepo** containing multiple submodules:
+
+```
+Easy-Kitchen/
+├── Easy-Kitchen-Android/       # Native Android application
+├── Easy-Kitchen-IOS/           # Native iOS application  
+├── Easy-Kitchen-Backend/       # Node.js REST API server
+├── Easy-Kitchen-Compose/       # Jetpack Compose Desktop & Web app
+├── Easy-Kitchen-Website/       # Web application interface
+└── README.md                   # This file
+```
+
+### Submodule Descriptions
+
+- **Easy-Kitchen-Android**: Native Android app built with modern Android development practices
+- **Easy-Kitchen-IOS**: Native iOS app with Swift and SwiftUI
+- **Easy-Kitchen-Backend**: Node.js/Express server handling all business logic and data management
+- **Easy-Kitchen-Compose**: Cross-platform desktop and web applications using Jetpack Compose
+- **Easy-Kitchen-Website**: Responsive web application for browser access
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Android**: Kotlin, XML layouts, MVVM architecture
+- **iOS**: Swift, SwiftUI
+- **Web/Desktop**: Jetpack Compose, React
+- **UI/UX**: Material Design principles
+
+### Backend
+- **Runtime**: Node.js
+- **Framework**: Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **File Storage**: Multer for image uploads
+
+### Infrastructure
+- **Docker**: Containerized deployment
+- **API**: RESTful API architecture
   
-  ## Requirements
-  To get more into our application, here is the link of our project's specifications : [Link](https://docs.google.com/document/d/1JPOoeVi4zhh0dRaGI5FAmBIi-SBxxCzN/edit?usp=sharing&ouid=105148018597387491435&rtpof=true&sd=true)
+## 📋 Requirements
 
-  ## Installation
-   You can clone this repository, or download via App Store, huawei App gallery.
+### General Requirements
+- Git (for cloning the repository and submodules)
+- Node.js v14+ (for backend development)
+- MongoDB (for database)
 
-  NOTE: The links mentioned above refers to the latest release. Since this app is in BETA phase, therefore the REST API changes a lot.
+### For Android Development
+- Android Studio 4.0+
+- Android SDK 21+
+- JDK 8+
+
+### For iOS Development
+- Xcode 12.0+
+- Swift 5.0+
+- iOS 12.0+
+
+### For Web/Desktop Development
+- Node.js v14+
+- Modern web browser
+
+### Documentation
+For detailed project specifications and requirements, see: [Project Specifications Document](https://docs.google.com/document/d/1JPOoeVi4zhh0dRaGI5FAmBIi-SBxxCzN/edit?usp=sharing&ouid=105148018597387491435&rtpof=true&sd=true)
+
+## 💻 Installation
+
+### Clone the Repository with Submodules
+
+```bash
+# Clone with all submodules
+git clone --recursive https://github.com/KvRae/Easy-Kitchen.git
+
+# Or if you've already cloned, initialize submodules
+cd Easy-Kitchen
+git submodule update --init --recursive
+```
+
+### Setup Instructions by Platform
+
+#### Backend Setup
+```bash
+cd Easy-Kitchen-Backend
+npm install
+# Configure your MongoDB connection in .env file
+npm start
+```
+
+#### Android Setup
+```bash
+cd Easy-Kitchen-Android
+# Open in Android Studio and sync Gradle
+# Or build from command line
+./gradlew build
+```
+
+#### iOS Setup
+```bash
+cd Easy-Kitchen-IOS
+pod install
+# Open EasyKitchen.xcworkspace in Xcode
+```
+
+#### Web/Desktop Setup
+```bash
+cd Easy-Kitchen-Compose
+npm install
+npm start
+```
+
+#### Website Setup
+```bash
+cd Easy-Kitchen-Website
+npm install
+npm start
+```
+
+### Download from App Stores
+You can also download the latest release from:
+- **Android**: Google Play Store or Huawei App Gallery
+- **iOS**: Apple App Store
+
+**NOTE**: This app is in **BETA phase**, so APIs and features may change frequently. Always refer to the latest documentation.
 
 ## Screenshots
 
@@ -52,20 +194,63 @@ as its name implies, user-friendly and informative food mobile app that will pro
 
 
 
-  ## Usage
-  N/A
+## 🚀 Usage
 
-  ## Credits
-  N/A
+### For Users
+1. Download the app from your device's app store or visit the website
+2. Create an account with your email
+3. Browse recipes by category or search for specific dishes
+4. View detailed recipe information including ingredients and instructions
+5. Save your favorite recipes for quick access
+6. Upload photos of your cooked dishes
+7. Rate and comment on recipes
+8. Explore cooking tips and nutrition information
 
-  ## Contributing
-  Contributors are welcomed.
+### For Developers
+- Each submodule has its own README with detailed development instructions
+- Refer to the API documentation in the Easy-Kitchen-Backend README
+- Follow the code style and architecture patterns established in each module
+- Submit pull requests for new features or bug fixes
 
-  ## License
- 
- MIT License
+## 👥 Credits
 
-Copyright (c) 2022 Karam Mannai
+**Project Lead & Creator**: Karam Mannai ([@kvrae](https://github.com/kvrae))
+
+**Contributors**: 
+- Yassin Khabthani ([@medyassin-khabthani](https://github.com/medyassin-khabthani))
+
+We thank all contributors who have helped make Easy Kitchen better!
+
+## 🤝 Contributing
+
+We welcome contributions from the community! To contribute to Easy Kitchen:
+
+1. **Fork** the repository
+2. **Create a new branch** for your feature (`git checkout -b feature/amazing-feature`)
+3. **Commit your changes** (`git commit -m 'Add some amazing feature'`)
+4. **Push to the branch** (`git push origin feature/amazing-feature`)
+5. **Open a Pull Request** with a detailed description of your changes
+
+### Contribution Guidelines
+- Follow the existing code style and architecture patterns
+- Write clear commit messages
+- Add tests for new features
+- Update documentation as needed
+- Be respectful and collaborative
+
+### Areas for Contribution
+- Bug fixes and improvements
+- New recipe categories or features
+- Performance optimizations
+- UI/UX enhancements
+- Documentation improvements
+- Translations for other languages
+
+## 📄 License
+
+MIT License
+
+Copyright (c) 2022-2026 Karam Mannai
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -85,7 +270,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-  ## Policy
+## 🔒 Privacy Policy
   
   **Privacy Policy**
 
@@ -150,9 +335,18 @@ This policy is effective as of 2023-01-18
 
 If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at karamelmannai@gmail.com.
 
-  ## Questions
+## ❓ Questions & Support
 
-  For questions, please reach out to us at: <br>
-    - [Email] (karamelmannai@gmail.com) <br>
-    - [GitHub] (https://github.com/kvrae) <br>
-    - [GitHub] (https://github.com/medyassin-khabthani)
+For questions, issues, or suggestions, please reach out to us:
+
+- **Email**: [karamelmannai@gmail.com](mailto:karamelmannai@gmail.com)
+- **GitHub Issues**: [Open an Issue](https://github.com/KvRae/Easy-Kitchen/issues)
+- **Creator**: [Karam Mannai](https://github.com/kvrae)
+- **Contributor**: [Yassin Khabthani](https://github.com/medyassin-khabthani)
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by the Easy Kitchen Team</p>
+  <p>© 2022-2026 Easy Kitchen. All rights reserved.</p>
+</div>
